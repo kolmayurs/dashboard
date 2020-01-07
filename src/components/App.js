@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/App.css';
-import Create from './Create';
+
 
 class App extends React.Component {
     constructor(props) {
@@ -11,7 +11,7 @@ class App extends React.Component {
     }
 
     render(){
-        return(<div className="main-container"><Create /></div>);
+        return(<div className="main-container">Hellow</div>);
     }
 
 }
